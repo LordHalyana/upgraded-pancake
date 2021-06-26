@@ -1,4 +1,38 @@
 body{
-    background-color: rgb(35, 39, 42);
-    color: rgb(153, 170, 181);
+    background-color: #2C2F33;
+    color:  #99AAB5;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.header{
+    background-color: #23272A;
+    color: white;
+}
+
+.title{
+    text-align: center;
+}
+
+.header-text{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.logo{
+    padding-left: 5px;
+    font-size: 1em;
+}
+
+p{
+    text-align: center;
+    padding-top: 25px;
 }
