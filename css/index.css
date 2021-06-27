@@ -3,7 +3,6 @@ body{
     color:  #99AAB5;
     font-size: 16px;
     line-height: 1.5;
-    overflow-x: hidden;
 }
 
 *{
@@ -63,4 +62,3 @@ p{
     background-color: #2C2F33;
     color: white;
 }
-
