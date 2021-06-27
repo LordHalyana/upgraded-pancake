@@ -35,7 +35,7 @@ p{
 .topnav{
     overflow: hidden;
     background-color: #23272A;
-    border-bottom: pink 15px;
+    border-bottom: 1px solid black;
 }
 
 .topnav a{
@@ -61,4 +61,25 @@ p{
 .topnav a.active{
     background-color: #2C2F33;
     color: white;
+    border-bottom: 1px solid white;
+}
+
+.lightmode{
+    background-color: white;
+    color: black;
+}
+
+
+.darkmode{
+    background-color: #23272A;
+    color: white;
+}
+
+.mode-changer{
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    border-radius: 12px;
 }
