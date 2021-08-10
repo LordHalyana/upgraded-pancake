@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+html body {
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #282828 !important;
+    color: #ffff !important;
+}
+
+/* Header/Blog Title */
+.header {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+    height: 800px;
+    margin-top: 45px;
+    font-size: 30px;
+    background-color: #222222;
+    text-shadow: 2px 2px #282828;
+    border-radius: 45px;
+    /*background-image: url("https://w.wallhaven.cc/full/pk/wallhaven-pkw6y3.jpg"); */
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* Name in header */
+.header .name{
+  font-family: 'Orbitron', sans-serif !important;
+  color: lightblue !important;
+  font-size: 35px;
+}
+
+/* Title in header */
+.header .title{
+  font-family: 'Orbitron', sans-serif !important;
+  color: lightgreen !important;
+  font-size: 35px;
+}
+
+/* only change font family here and look into bootstap for the rest of the css for navbar */
+.navbar {
+  font-family: 'Orbitron', sans-serif !important;
+}
+
+
+.leftrad{
+    border-right: #282828 solid 6px;
+    width: 65%;
+    float: left;
+}
+
+.leftrad img{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 45%;
+    width: 25%;
+    height: auto;
+}
+
+.leftrad p{
+    text-transform: uppercase;
+    font-size: 21px;
+    margin: 25px;
+}
+
+.leftrad .btn{
+  margin-left: 15px;
+}
+
+.rightrad{
+    width: 35%;
+    float: right;
+    height: 100%;
+}
+
+.rightrad p{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.date{
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.url{
+  text-align: right !important;
+  font-size: 0.85em;
+}
+
+.blogcolumnr {
+  padding-left: 25%;
+  width: 75%;
+  padding-bottom: 25px;
+}
+
+.blogcolumnr .homecard p{
+  font-size: 1.0em;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+/* Add a card effect for articles */
+.homecard {
+  padding: 20px;
+  background-color: #282828 !important;
+  color: #ffff !important;
+  height: 300px;
+  width: 85%;
+}
+
+.rowr{
+  padding-bottom: 150px;
+}
+
+.rowr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Footer */
+html .footer {
+  padding-top: 50px;
+  margin-top: 20px;
+  border-radius: 35px;
+  background-color: #222222;
+  border: #222222 solid 3px;
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+}
+
+.footer a {
+  font-size: 35px;
+  padding: 10px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1400px) {
+    .leftrad{
+        width: 100%;
+        float: left;
+    } 
+    .rightrad{
+        width: 100%;
+        float: left;
+    }
+
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 35px;
+        height: 1200px;
+        margin-top: 45px;
+        font-size: 21px;
+        background-color: #222222;
+        text-shadow: 2px 2px #282828;
+        border-radius: 45px;
+    }
+
+    .leftrad p{
+      text-transform: uppercase;
+      font-size: 18px;
+      margin: 25px;
+    }  
+  
+    .rightrad p{
+      margin-top: 50px;
+      margin-left: 25px;
+      margin-right: 25px;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .leftrad{
+      width: 100%;
+      float: left;
+  } 
+  .rightrad{
+      width: 100%;
+      float: left;
+  }
+
+  .header {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 35px;
+      height: 1100px;
+      margin-top: 45px;
+      font-size: 21px;
+      background-color: #222222;
+      text-shadow: 2px 2px #282828;
+      border-radius: 45px;
+  }
+    
+  .leftrad p{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 25px;
+  }  
+
+  .rightrad p{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}

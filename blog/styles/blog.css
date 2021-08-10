@@ -1,0 +1,124 @@
+html body {
+  font-family: Arial;
+  padding: 20px;
+  text-align: center;
+  background-color: #282828 !important;
+  color: #ffff !important;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  padding-top: 75px;
+  font-size: 40px;
+  background-color: #222222;
+  text-shadow: 2px 2px #282828;
+  border-radius: 45px;
+}
+
+
+.date{
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.url{
+  text-align: right !important;
+  font-size: 0.85em;
+}
+
+.blogcolumnr {
+  padding-left: 25%;
+  width: 75%;
+  padding-bottom: 25px;
+}
+
+.blogcolumnr .card p{
+  font-size: 1.0em;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+.leftcolumnr {
+  float: left;
+  width: 15%;
+}
+
+.middlecolumnr {
+  float: left;
+  width: 70%;
+}
+
+.rightcolumnr {
+  float: right;
+  width: 15%;
+}
+.leftcolumnr .atitle{
+  font-size: 28px;
+  border-bottom: 4px solid #222222;
+  text-transform: uppercase;
+  text-shadow: 3px 3px #222222;
+}
+
+.bootpad{
+  padding: 40px;
+}
+/* Add a card effect for articles */
+.card {
+  padding: 20px;
+  background-color: #282828 !important;
+  color: #ffff !important;
+  padding-bottom: 50px;
+}
+
+.bigcard {
+  padding: 35px;
+  background-color: #282828 !important;
+  color: #ffff !important;
+}
+
+.rowr{
+  padding-bottom: 150px;
+}
+.rowr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Footer */
+html .footer {
+  padding-top: 50px;
+  margin-top: 20px;
+  border-radius: 35px;
+  background-color: #222222;
+  border: #222222 solid 3px;
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+}
+
+.footer a {
+  font-size: 35px;
+  padding: 10px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumnr{
+    width: 0%;
+    padding: 0;
+  }
+  .middlecolumnr{
+    width: 100%;
+    padding: 0;
+  }
+  .rightcolumnr{
+    width: 0%;
+    padding: 0;
+  }
+
+}
